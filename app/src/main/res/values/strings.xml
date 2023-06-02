@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ProjectOOE</string>
+    <string name="check_a_bike_if_stolen">CHECK A BIKE IF STOLEN</string>
+    <string name="welcome"><![CDATA[Welcome to Project OOE! You can claim your bike stolen or found using ID number of your bike. Or if you looking for a used bike, check if it\'s stolen using its ID. We strongly reccomend you to take note of ID number of your bike somewhere for claiming it stolen easily if it gets stolen.]]></string>
+    <string name="claim_your_bike_stolen">CLAIM YOUR BIKE STOLEN</string>
+    <string name="enter_id_number_of_bike">Enter ID number of bike</string>
+    <string name="example">Example: ABC12345678</string>
+    <string name="check">CHECK</string>
+    <string name="claim_your_bike_stolen_using_id_number_of_your_bike">Claim your bike stolen using ID number of your bike.</string>
+    <string name="claim">CLAIM</string>
+    <string name="claim_your_bike_found">CLAIM YOUR BIKE FOUND</string>
+    <string name="result_of_the_query_will_be_shown_here">Result of the query will be shown here.</string>
+    <string name="todo">TODO</string>
+    <string name="copyright"><![CDATA[© Orkun & Öykü]]></string>
+    <string name="you_can_find_id_number_of_your_bike_on_receipt_of_your_bike">You can find ID number of your bike on receipt of your bike.</string>
+    <string name="name">Name</string>
+    <string name="log_in">LOG IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="i_forgot_password">I FORGOT PASSWORD</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email_provider_com">email@provider.com</string>
+    <string name="log_out">LOG OUT</string>
+</resources>

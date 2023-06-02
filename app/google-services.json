@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "858887465330",
+    "project_id": "velocommunity-d432b",
+    "storage_bucket": "velocommunity-d432b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858887465330:android:7380c47db17a32001095eb",
+        "android_client_info": {
+          "package_name": "com.omo.projectomo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858887465330-9fal2d0enh2ii9agvk4p2df6hnhgt53t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn8wNE_Ia3svn1LK6ZvKSphRDVRNSyMaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858887465330-9fal2d0enh2ii9agvk4p2df6hnhgt53t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
