@@ -21,4 +21,10 @@
     <string name="password">Password</string>
     <string name="email_provider_com">email@provider.com</string>
     <string name="log_out">LOG OUT</string>
+    <string name="cycling_groups">CYCLING GROUPS</string>
+    <string-array name="clubs_array">
+        <item>Perşembe Akşamı Bisikletçileri</item>
+        <item>Pedalşörler</item>
+        <item>Sahil Bisiklet Ekibi</item>
+    </string-array>
 </resources>

@@ -22,6 +22,7 @@
         <activity android:name=".ClaimStolen" android:label="claim"></activity>
         <activity android:name=".ClaimFound" android:label="delete"></activity>
         <activity android:name=".MainActivity" android:label="main"></activity>
+        <activity android:name=".MessageBoard" android:label="message"></activity>
     </application>
 
 </manifest>

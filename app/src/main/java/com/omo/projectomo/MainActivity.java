@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Button claim = (Button) findViewById(R.id.buttonClaimStolen);
         Button delete = (Button) findViewById(R.id.buttonClaimFound);
         Button logout = (Button) findViewById(R.id.buttonLogout);
+        Button message = (Button) findViewById(R.id.messageBoard);
         TextView name = (TextView) findViewById(R.id.nameplace);
 
         name.setText("User: "+Login.nameActive);
@@ -52,6 +53,13 @@ public class MainActivity extends AppCompatActivity {
                 Login.idActive = null;
                 Login.nameActive = null;
                 Login.passwordActive = null;
+                startActivity(i);
+            }
+        });
+        message.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), MessageBoard.class);
                 startActivity(i);
             }
         });
