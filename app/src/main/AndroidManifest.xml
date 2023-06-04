@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.omo.projectomo">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -23,6 +22,10 @@
         <activity android:name=".ClaimFound" android:label="delete"></activity>
         <activity android:name=".MainActivity" android:label="main"></activity>
         <activity android:name=".MessageBoard" android:label="message"></activity>
+        <activity android:name=".MyMessages" android:label="my_messages"></activity>
     </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
 
 </manifest>

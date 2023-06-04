@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cycling_groups"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/clubs"
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/dateSelect"
+            android:layout_width="309dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="MM-DD-YYYY"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/slctDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SHOW" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="498dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/group_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TITLE"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/messages"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/newMsg"
+            android:layout_width="292dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Write a message"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/msgSend"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:text="SEND" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/my_messages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MY MESSAGES" />
+
+</LinearLayout>
